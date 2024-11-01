@@ -1,0 +1,44 @@
+.movie__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.movie__poster {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.movie__logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+}
+
+.movie__image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.movie__title {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.movie__subtitle {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.8);
+}

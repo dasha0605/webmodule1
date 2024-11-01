@@ -1,0 +1,145 @@
+@import url("https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");
+@font-face {
+    font-family: "KyivTypeTitling";
+    src: url("KyivTypeTitling-Regular.otf");
+    font-weight: bolder;
+}
+
+body, html {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f9fa;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.movie-gallery img {
+    margin: 0.25rem; 
+}
+
+.menuf a {
+    color: rgb(255, 255, 221); /* Change link color to yellow */
+    text-decoration: none; /* Optional: Remove underline from links */
+    font-size: 20px; /* Set the font size */
+    line-height: 40px; /* Set line height for vertical spacing */
+
+}
+
+.menuf a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+.text-link {
+    color: rgb(255, 255, 221); /* Світло-жовтий колір */
+    text-decoration: none; /* Без підкреслення за замовчуванням */
+}
+
+.text-link:hover {
+    text-decoration: underline; /* Підкреслення при наведені */
+}
+.social-icons a img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+.display-4{
+    font-family: KyivTypeTitling;
+}
+.lead{
+    font-style: italic;
+    color: rgb(214, 214, 214);
+}
+.header-section, .col-lg-8{
+    background-color: rgb(18, 19, 31);
+}
+
+.col-lg-4, .sidebar{
+    background-color: black;
+
+}
+.main-content {
+    margin-left: 0; 
+    height: 100vh; 
+}
+.header-section {
+    flex: 1; 
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem 0;
+    }
+    
+    .sidebar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidebar ul li {
+        margin: 0 10px;
+    }
+
+    /* Основний контент - вертикальне розташування блоків */
+    .header-section, 
+    .film-info, 
+    .content, 
+    footer {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-section .col-lg-6, 
+    .film-info {
+        height: auto;
+    }
+
+    /* Галерея в один стовпчик */
+    .movie-gallery .col-6 {
+        width: 100%;
+    }
+}
+.message-box {
+    width: 100%;
+    height: 150px; /* Налаштуйте висоту на бажаний розмір */
+    background-color: #555555; /* Світло-сірий фон */
+
+    resize: none;
+}
+
+/* Social Icons Section */
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.social-icons p {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust size as needed */
+    height: 30px;
+
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}

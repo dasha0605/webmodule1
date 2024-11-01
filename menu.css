@@ -1,0 +1,41 @@
+.menu {
+    background-color: #000;
+    padding: 20px;
+    width: 200px;
+}
+
+.menu__button {
+    color: #ffffff; /* Ivory color for the button text */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ffffff; /* Ivory border */
+    border-radius: 50px; /* Makes the border rounded like a circle */
+    display: inline-block;
+    text-align: center;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item {
+    margin-bottom: 15px;
+}
+
+.menu__item a {
+    color: #ffffff; /* Ivory color for links */
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.menu__item a:hover {
+    color: #fff3af; /* Yellow color on hover */
+    font-size: 22px; /* Increase font size on hover */
+}
